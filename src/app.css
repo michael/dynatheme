@@ -28,12 +28,12 @@
   /* Light theme */
   --color-bg-light: #ffffff;
   --color-text-light: #111111;
-  --color-accent-1-light: var(--color-text-light); /* Same as bg */
+  --color-accent-1-light: var(--color-text-light); /* Same as text */
 
   /* Dark theme */
   --color-bg-dark: #222222;
   --color-text-dark: #f1f1f1;
-  --color-accent-1-dark: var(--color-text-dark); /* Same as bg */
+  --color-accent-1-dark: var(--color-text-dark); /* Same as text */
 
   /* Orange theme */
   --color-bg-orange: #FAE7DE; /* Example beige */
@@ -43,7 +43,7 @@
   /* Default Theme */
   --color-bg: var(--color-bg-light);
   --color-text: var(--color-text-light);
-  --color-accent-1: var(--color-accent-1-text-light);
+  --color-accent-1: var(--color-accent-1-light);
 }
 
 
